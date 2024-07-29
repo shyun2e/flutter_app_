@@ -9,10 +9,10 @@ class AppHeader extends StatelessWidget {
       margin: EdgeInsets.all(30.0),
       width: 300,
       height: 100,
-      decoration: BoxDecoration(
-        image: DecorationImage(
-          image: AssetImage('assets/images/see_you.png'),
-        ),
+      child: Text(
+        "지켜보고있다",
+        style: TextStyle(fontFamily:"gmarket_ttf",fontSize:50),
+        textAlign: TextAlign.center,
       ),
     );
   }

@@ -5,23 +5,17 @@ class AppTodayScore extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Center(
-      child: ClipRRect(
-        borderRadius: BorderRadius.circular(16.0),
-        child: Container(
-          width: 350,
-          height: 200,
-          //color: Colors.cyanAccent.withOpacity(0.4),
-          child: Text(
-            "오늘의 자세",
-            style: TextStyle(
-              fontFamily: "OrbitRegular",
-              fontSize: 30,
-            ),
-            textAlign: TextAlign.center,
-          ),
+    return Container(
+      height: 200,
+      decoration: BoxDecoration(
+        borderRadius: BorderRadius.circular(50)
+      ),
+      child: Text("오늘의 점수",
+        style: TextStyle(
+          fontFamily: "OrbitRegular",
+          fontSize: 30,
         ),
+        textAlign: TextAlign.center,
       ),
     );
-  }
-}
+  }}
