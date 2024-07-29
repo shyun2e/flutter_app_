@@ -33,7 +33,7 @@ class AppMenu extends StatelessWidget {
           _buildMenuButton("월별 통계", context, () {
             Navigator.push(
               context,
-              MaterialPageRoute(builder: (context) => FlutterMonthPage()),
+              MaterialPageRoute(builder: (context) => FlutterCalPage()),
             );
           }),
           _buildMenuButton("랭킹", context, () {

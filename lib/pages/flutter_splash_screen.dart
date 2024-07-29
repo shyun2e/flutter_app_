@@ -1,7 +1,11 @@
 import 'dart:async';
-
 import 'package:flutter/material.dart';
 import 'package:flutter_app/pages/flutter_home_page.dart';
+
+/*
+앱 시작시 스플래쉬 화면
+timer -> 홈 화면으로 전환되기에 StatefulWidget 사용
+ */
 
 class FlutterSplashScreen extends StatefulWidget {
   @override

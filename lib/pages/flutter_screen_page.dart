@@ -1,5 +1,9 @@
 import 'package:flutter/material.dart';
 
+/*
+화면 녹화 페이지
+ */
+
 class FlutterScreenPage extends StatelessWidget {
   const FlutterScreenPage({super.key});
 

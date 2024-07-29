@@ -4,6 +4,10 @@ import 'package:flutter/material.dart';
 import 'package:flutter_app/pages/flutter_home_page.dart';
 import 'package:flutter_app/pages/flutter_splash_screen.dart';
 
+/*
+material design3 이용하였음
+ */
+
 void main() {
   runApp(const MyApp());
 }

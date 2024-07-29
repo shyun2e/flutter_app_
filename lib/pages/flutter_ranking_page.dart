@@ -1,5 +1,9 @@
 import 'package:flutter/material.dart';
 
+/*
+랭킹 화면 페이지
+ */
+
 class FlutterRankingPage extends StatelessWidget {
   const FlutterRankingPage({super.key});
 

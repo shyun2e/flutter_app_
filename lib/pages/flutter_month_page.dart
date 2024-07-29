@@ -1,8 +1,10 @@
 import 'package:flutter/material.dart';
 
-class FlutterMonthPage extends StatelessWidget {
-  const FlutterMonthPage({super.key});
+/*
+캘린더 화면 페이지
+ */
 
+class FlutterCalPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(

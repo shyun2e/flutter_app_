@@ -3,6 +3,10 @@ import 'package:flutter_app/components/app_header.dart';
 import 'package:flutter_app/components/app_menu.dart';
 import 'package:flutter_app/components/app_today_score.dart';
 
+/*
+홈화면 페이지
+ */
+
 class FlutterHomePage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
