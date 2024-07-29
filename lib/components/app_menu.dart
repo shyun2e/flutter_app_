@@ -5,7 +5,8 @@ import 'package:flutter_app/pages/flutter_screen_page.dart';
 import 'package:flutter_app/pages/flutter_settings_page.dart';
 
 class AppMenu extends StatelessWidget {
-  const AppMenu({super.key});
+  final ValueNotifier<ThemeData> _themeNotifier =
+      ValueNotifier(ThemeData.light());
 
   @override
   Widget build(BuildContext context) {
@@ -26,7 +27,7 @@ class AppMenu extends StatelessWidget {
           _buildMenuButton("설정", context, () {
             Navigator.push(
               context,
-              MaterialPageRoute(builder: (context) => FlutterSettingsPage()),
+              MaterialPageRoute(builder: (context) => SettingsPage()),
             );
           }),
           _buildMenuButton("월별 통계", context, () {
